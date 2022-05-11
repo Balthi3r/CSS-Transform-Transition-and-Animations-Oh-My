@@ -27,17 +27,7 @@ nav {
   opacity: 1;
 }
 
-@keyframes top {
-  from {}
-  to {}
-}
-
-@keyframes middle {
-  from {}
-  to {}
-}
-
-@keyframes bottom {
-  from {}
-  to {}
+.hamburger:hover {
+  transform-origin: top left;
+  transform: rotate(45s=deg);
 }
